@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 12px;
+    /* user-select: all; */
+}
+
+.menu-admin {
+    margin-top: 12px;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.726), rgb(63, 63, 63));
+
+}
+
+.menu-items {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+.link-menu {
+    padding: 12px 0;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+
+}
+
+.menu-items:hover a {
+    background-color: #ccc;
+    color: #000;
+}
+
